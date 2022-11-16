@@ -1,0 +1,135 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+p, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    background-color: #007765;
+    width: 100%;
+    height: 85px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-menu li, a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.read_1 {
+    color: white;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.read_2 {
+    color: #007765;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.read_me {
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section_1 {
+    height: 400px;
+    background-image: url(/img/image-8.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section_2 {
+    padding-top: 48px;
+    padding-bottom: 92px;
+    background-color: #EEEEEE;
+}
+
+.section_2__paragraph {
+    margin-bottom: 32px;
+}
+
+.section_3 {
+    padding-left: 55px;
+    padding-right: 55px;
+    margin: auto;
+}
+
+.section_4 {
+    display: inline;
+    background-color: #EEEEEE;
+}
+
+.backimg {
+    height: 400px;
+    background-image: url(/img/Hero-1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.floatlogo {
+    float: left;
+    padding: 30px;
+}
+
+.teamimg_1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.text_1 {
+    color: #007765;
+    font-weight: bold;
+}
+
+.text_2 {
+    font-style: italic;
+}
+
+.footer {
+    background-color: #333333;
+    text-align: center;
+}
